@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #414141;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
+    font-size: 18px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 50px;
+    /*border: 1px solid #5D6063;*/
+    border-bottom: 1px solid #5D6063;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+a {
+    text-decoration: none;
+}
+/*p {*/
+/*    text-align: left;*/
+/*    padding-top: 20px;*/
+/*    padding-bottom: 20px;*/
+/*    padding-left: 10px;*/
+/*    padding-right: 10px;*/
+/*}*/
+/*p {*/
+/*    padding: 20px 10px;  !* Vertical  Horizontal *!*/
+/*}*/
+p {
+    padding: 20px 0 20px 10px;  /* Top  Right  Bottom  Left */
+    margin-bottom: 50px;          /* Add this */
+    margin-top: 25px;
+
+}
+h1, p {
+     background-color: #DDE0E3;    /* Light gray */
+ }
+
+em, strong {
+    background-color: #B2D6FF;
+    /*display: block;*/
+    display: inline;
+
+}
+strong {
+    padding: 50px;
+}
+div {
+    /* color: #FFF;*/
+    /* background-color: #5995DA;*/
+    /* font-weight: bold;*/
+    /* padding: 20px;*/
+    /* text-align: center;*/
+    /* border: 2px solid #5D6063;*/
+    /* border-radius: 5px;*/
+    /* width: 200px;*/
+    /*box-sizing: border-box;  !* Add this *!*/
+    /*margin: 20px auto; !* Vertical  Horizontal *!*/
+ }
+
+.synopsis {
+    color: #7E8184;        /* Light gray */
+    font-style: italic;
+}
+.synopsis em {
+    font-style: normal;
+}
+
+.button {
+    color: #FFF;
+    background-color: #5995DA;    /* Blue */
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;    /* Dark gray */
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+.page {
+    width: 600px;
+    margin: 0 auto;
+}
+#button-2 {
+    background-color: #D55C5F;    /* Red */
+}
+.call-to-action {
+    font-style: italic;
+    background-color: #EEB75A;    /* Yellow */
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+a:visited:hover {
+    color: orange;
+}
+a:visited:active {
+    color: red;
+}
+.button:link,                 /* Change this */
+.button:visited {             /* Change this */
+    display: block;             /* Add this */
+    text-decoration: none;      /* Add this */
+
+    color: #FFF;                /* The rest is the same */
+    background-color: #5995DA;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #5D6063;
+    border-radius: 5px;
+
+    width: 200px;
+    margin: 20px auto;
+}
+.button:hover,
+.button:visited:hover {
+    color: #FFF;
+    background-color: #76AEED;  /* Light blue */
+}
+.button:active,
+.button:visited:active {
+    color: #FFF;
+    background-color: #5995DA;  /* Blue */
+}
+.call-to-action:link,
+.call-to-action:visited {
+    font-style: italic;
+    background-color: #EEB75A;     /* Yellow */
+}
+
+.call-to-action:hover,
+.call-to-action:visited:hover {
+    background-color: #F5CF8E;     /* Light yellow */
+}
+
+.call-to-action:active,
+.call-to-action:visited:active {
+    background-color: #EEB75A;     /* Yellow */
+}
+p:last-of-type {
+    margin-bottom: 50px;
+}
+
+p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+.page > p:first-of-type {
+    color: #7E8184;
+    font-style: italic;
+}
+/*#button-2 {*/
+/*    color: #5D6063;  !* Dark gray *!*/
+/*}*/
